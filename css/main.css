@@ -77,6 +77,20 @@ border: none;
 height: 49px;
 margin-left: 800px;
 }
+.span-p{
+    font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 57.33px;
+line-height: 120.5%;
+color: #0F0101;
+opacity: 0.9;
+color: #D23166;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
 .ul-list{
     position: absolute;
     right: 450px;
@@ -143,6 +157,11 @@ height: 49px;
 border: none;
 margin-top: 50px;
 }
+.hero-btn:hover{
+    transform: scale(1.1);
+    transition: 0.2;
+    background-color: #D23166;
+}
 .hero-img{
     width: 600px;
     height: 500px;
@@ -167,6 +186,12 @@ width: 250px;
 height: 200px;
 list-style: none;
 position:relative;
+}
+.main-link:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #D64374;
+    box-shadow: 30px 30px 50px rgb(150, 35, 70);
 }
 .car{
     position: absolute;
@@ -275,6 +300,10 @@ border-radius: 5px;
 width: 165px;
 height: 50px;
 border: none;
+}
+.bro-btn:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 .bro-left{
     position: relative;
@@ -471,6 +500,8 @@ border: none;
     margin: 0 auto;
     padding: 0 auto;
 }
+   
+
 .pricing-p{
     font-family: 'Roboto';
 font-style: normal;
@@ -553,7 +584,7 @@ width: 137px;
     margin-left: 30px;
 }
 .pricing{
-  margin-top:300px ;
+  margin-top:300px;
 }
 .pro-text3{
     font-family: 'Roboto';
@@ -718,7 +749,7 @@ border-radius: 5px;
 width: 350px;
 height: 55px;
 margin-top: 10px;
-padding: 20px 30px;
+padding: 10px 30px;
 }
 .subs{
     font-family: 'Roboto';
@@ -757,3 +788,16 @@ margin-top: 10px;
     align-items: center;
     position: relative;
 }
+.test-images{
+    position: relative;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.test-img{
+    position: absolute;
+    top:-5px;
+}
+
+
+ 
